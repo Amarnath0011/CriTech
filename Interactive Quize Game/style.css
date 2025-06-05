@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    padding: 40px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .quiz-container {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 500px;
+    width: 100%;
+    animation: slideIn 1s ease;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .question {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .options label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .options span {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f1f1f1;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+
+  .options input[type="radio"] {
+    display: none;
+  }
+  
+  .options input[type="radio"]:checked + span {
+    background-color: #d0f0c0;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #388e3c;
+  }
+  
+  .result {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation: pop 0.5s ease;
+  }
+  
+  @keyframes pop {
+    0% {
+      transform: scale(0.7);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .feedback {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #555;
+  }
+  

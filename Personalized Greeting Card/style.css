@@ -68,8 +68,9 @@ label{
     height: 400px;
     width:400px;
     border: 4px solid black;
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
    border-radius: 20px;
+   
    
 }
 .card p{

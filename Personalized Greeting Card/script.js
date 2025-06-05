@@ -13,6 +13,5 @@ function showGreetingCard(){
      <div class="wish">${message} </div></div>
      </div>`; 
 
-     
 }
 
