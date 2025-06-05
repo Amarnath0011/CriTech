@@ -1,29 +1,29 @@
 
 const questions = [
     {
-      question: "What is the capital of India?",
-      options: ["Mumbai", "Delhi", "Chennai", "Kolkata"],
-      correct: "Delhi"
+      question: "Which is the oldest programming Language?",
+      options: ["C++", "C", "java", "C#"],
+      correct: "C"
     },
     {
-      question: "What does HTML stand for?",
+      question: "Who won IPL 2025?",
       options: [
-        "Hyper Trainer Marking Language",
-        "Hyper Text Markup Language",
-        "High Text Machine Language",
+        "Chennai Super King",
+        "PUNJAB KINGS",
+        "ROYAL CHALLANGERS BANGALORE",
         "None"
       ],
-      correct: "Hyper Text Markup Language"
+      correct: "ROYAL CHALLANGERS BANGALORE"
     },
     {
-      question: "Which of these is a JavaScript framework?",
-      options: ["Laravel", "Django", "React", "Flask"],
-      correct: "React"
+      question: "Who was the Orange Cap holder?",
+      options: ["Sai Sudarshan", "Virat Kohli", "Thala", "Rohit Sharma"],
+      correct: "Sai Sudarshan"
     },
     {
-      question: "What does CSS control?",
-      options: ["Structure", "Behavior", "Style", "Database"],
-      correct: "Style"
+      question: "Which the best Franchise in India Primier league?",
+      options: ["RCB❤️", "CSK💩", "KKR🕌", "MI🧅"],
+      correct: "RCB"
     }
   ];
   
